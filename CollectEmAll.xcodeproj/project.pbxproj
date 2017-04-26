@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		9077295C1EAF950200A9E6B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9077295B1EAF950200A9E6B6 /* main.m */; };
 		9077295F1EAF950200A9E6B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9077295E1EAF950200A9E6B6 /* AppDelegate.m */; };
-		907729621EAF950200A9E6B6 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907729611EAF950200A9E6B6 /* MasterViewController.m */; };
 		907729651EAF950200A9E6B6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907729641EAF950200A9E6B6 /* DetailViewController.m */; };
 		907729681EAF950200A9E6B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 907729661EAF950200A9E6B6 /* Main.storyboard */; };
 		9077296A1EAF950200A9E6B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 907729691EAF950200A9E6B6 /* Assets.xcassets */; };
 		9077296D1EAF950200A9E6B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9077296B1EAF950200A9E6B6 /* LaunchScreen.storyboard */; };
 		907729781EAF950200A9E6B6 /* CollectEmAllTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 907729771EAF950200A9E6B6 /* CollectEmAllTests.m */; };
 		907729831EAF950200A9E6B6 /* CollectEmAllUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 907729821EAF950200A9E6B6 /* CollectEmAllUITests.m */; };
+		907729911EAF95AF00A9E6B6 /* DistantGalaxy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 907729901EAF95AF00A9E6B6 /* DistantGalaxy.ttf */; };
+		907729941EAF968C00A9E6B6 /* CardsCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 907729931EAF968C00A9E6B6 /* CardsCollectionViewController.m */; };
+		907729971EAF9A5400A9E6B6 /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 907729961EAF9A5400A9E6B6 /* CardCell.m */; };
+		9077299C1EAFA7E900A9E6B6 /* CharacterListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9077299B1EAFA7E900A9E6B6 /* CharacterListTableViewController.m */; };
+		9077299F1EAFA81100A9E6B6 /* CharacterCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9077299E1EAFA81100A9E6B6 /* CharacterCellTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +44,6 @@
 		9077295B1EAF950200A9E6B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9077295D1EAF950200A9E6B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9077295E1EAF950200A9E6B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		907729601EAF950200A9E6B6 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		907729611EAF950200A9E6B6 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		907729631EAF950200A9E6B6 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		907729641EAF950200A9E6B6 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		907729671EAF950200A9E6B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +56,15 @@
 		9077297E1EAF950200A9E6B6 /* CollectEmAllUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectEmAllUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		907729821EAF950200A9E6B6 /* CollectEmAllUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectEmAllUITests.m; sourceTree = "<group>"; };
 		907729841EAF950200A9E6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907729901EAF95AF00A9E6B6 /* DistantGalaxy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DistantGalaxy.ttf; sourceTree = "<group>"; };
+		907729921EAF968C00A9E6B6 /* CardsCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardsCollectionViewController.h; path = ../CardsCollectionViewController.h; sourceTree = "<group>"; };
+		907729931EAF968C00A9E6B6 /* CardsCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardsCollectionViewController.m; path = ../CardsCollectionViewController.m; sourceTree = "<group>"; };
+		907729951EAF9A5400A9E6B6 /* CardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
+		907729961EAF9A5400A9E6B6 /* CardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
+		9077299A1EAFA7E900A9E6B6 /* CharacterListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterListTableViewController.h; sourceTree = "<group>"; };
+		9077299B1EAFA7E900A9E6B6 /* CharacterListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterListTableViewController.m; sourceTree = "<group>"; };
+		9077299D1EAFA81100A9E6B6 /* CharacterCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterCellTableViewCell.h; sourceTree = "<group>"; };
+		9077299E1EAFA81100A9E6B6 /* CharacterCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterCellTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,13 +115,20 @@
 		907729591EAF950200A9E6B6 /* CollectEmAll */ = {
 			isa = PBXGroup;
 			children = (
+				907729901EAF95AF00A9E6B6 /* DistantGalaxy.ttf */,
+				907729921EAF968C00A9E6B6 /* CardsCollectionViewController.h */,
+				907729931EAF968C00A9E6B6 /* CardsCollectionViewController.m */,
 				9077295D1EAF950200A9E6B6 /* AppDelegate.h */,
 				9077295E1EAF950200A9E6B6 /* AppDelegate.m */,
-				907729601EAF950200A9E6B6 /* MasterViewController.h */,
-				907729611EAF950200A9E6B6 /* MasterViewController.m */,
 				907729631EAF950200A9E6B6 /* DetailViewController.h */,
 				907729641EAF950200A9E6B6 /* DetailViewController.m */,
 				907729661EAF950200A9E6B6 /* Main.storyboard */,
+				9077299D1EAFA81100A9E6B6 /* CharacterCellTableViewCell.h */,
+				9077299E1EAFA81100A9E6B6 /* CharacterCellTableViewCell.m */,
+				9077299A1EAFA7E900A9E6B6 /* CharacterListTableViewController.h */,
+				9077299B1EAFA7E900A9E6B6 /* CharacterListTableViewController.m */,
+				907729951EAF9A5400A9E6B6 /* CardCell.h */,
+				907729961EAF9A5400A9E6B6 /* CardCell.m */,
 				907729691EAF950200A9E6B6 /* Assets.xcassets */,
 				9077296B1EAF950200A9E6B6 /* LaunchScreen.storyboard */,
 				9077296E1EAF950200A9E6B6 /* Info.plist */,
@@ -253,6 +271,7 @@
 			files = (
 				9077296D1EAF950200A9E6B6 /* LaunchScreen.storyboard in Resources */,
 				9077296A1EAF950200A9E6B6 /* Assets.xcassets in Resources */,
+				907729911EAF95AF00A9E6B6 /* DistantGalaxy.ttf in Resources */,
 				907729681EAF950200A9E6B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,10 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9077299F1EAFA81100A9E6B6 /* CharacterCellTableViewCell.m in Sources */,
 				9077295F1EAF950200A9E6B6 /* AppDelegate.m in Sources */,
-				907729621EAF950200A9E6B6 /* MasterViewController.m in Sources */,
 				9077295C1EAF950200A9E6B6 /* main.m in Sources */,
+				907729971EAF9A5400A9E6B6 /* CardCell.m in Sources */,
+				907729941EAF968C00A9E6B6 /* CardsCollectionViewController.m in Sources */,
 				907729651EAF950200A9E6B6 /* DetailViewController.m in Sources */,
+				9077299C1EAFA7E900A9E6B6 /* CharacterListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
